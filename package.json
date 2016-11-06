@@ -1,0 +1,23 @@
+{
+  "name": "twitter-tail-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js --env develop --port 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "socket.io": "^1.4.8",
+    "twit": "^2.2.4",
+    "winston": "^2.2.0",
+    "yargs": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
